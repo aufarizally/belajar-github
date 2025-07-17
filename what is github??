@@ -2,3 +2,8 @@
 - vcs (version control system) adalah sebuah system yang mengelola, menyimpan, dan mensnapshot sourcode
 - git adalah sebuah software berbasis vcs
 - github adalah platform berbasis cloud yang digunakan untuk mengelola, mengelola, mensnapshot sourcode dll
+
+istilah dalam github 
+1. Repository : tempat untuk menyimpan semua file dan semua perubahan sourcode. Atau bisa disebut juga folder
+2. commit : snapshot perubahan file/save2 an yang bisa dilihat juga di repository
+3 branch : alur pengembangan terpisah dalam repositori.
