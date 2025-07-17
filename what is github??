@@ -6,4 +6,4 @@
 istilah dalam github 
 1. Repository : tempat untuk menyimpan semua file dan semua perubahan sourcode. Atau bisa disebut juga folder
 2. commit : snapshot perubahan file/save2 an yang bisa dilihat juga di repository
-3 branch : alur pengembangan terpisah dalam repositori.
+3. branch : Cabang pengembangan terpisah dalam repositori kode, yang memungkinkan pengembang membuat perubahan atau fitur baru tanpa memengaruhi jalur utama pengembangan. gampangnya kamu membuat salinan file yang akan kamu berikan kepada temanmu agar lebih gmpang untuk membagi tugasnya
