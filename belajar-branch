@@ -22,3 +22,7 @@ insight -> network
 
 cara menghapus branch
 branch -> delete (gambar tempat sampah)
+
+Cara menggabungkan 3 branch
+- Menggabugkanya harus satu-satu, kalian menggabugnkan master dengan yang mana dulu, dengan branch "cara-menggabugnkan-3-branch" atau "tutorial-pull-request". itu terserah kalian
+- atau kalo tidak bisa pull request bisa liat https://youtu.be/k1QXd-8VbPY?si=iWjF45fNq2V3ogJr (chanel wpu-menit 24.33)
