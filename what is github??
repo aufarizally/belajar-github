@@ -7,3 +7,39 @@ istilah dalam github
 1. Repository : tempat untuk menyimpan semua file dan semua perubahan sourcode. Atau bisa disebut juga folder
 2. commit : snapshot perubahan file/save2 an yang bisa dilihat juga di repository
 3. branch : Cabang pengembangan terpisah dalam repositori kode, yang memungkinkan pengembang membuat perubahan atau fitur baru tanpa memengaruhi jalur utama pengembangan. gampangnya kamu membuat salinan file yang akan kamu berikan kepada temanmu agar lebih gmpang untuk membagi tugasnya
+4. checkout : berpindah ke branch / commit yang lain
+5. pull request : meminta pemilik repo / master branchnya untuk mengambil perubahan yang dilakukan
+6. merge : menggabungkan 2 branch
+7. merge conflict : baris yang sama diubah oleh 2 branch yang yang berbeda, contohnya branch 1 pada baris ke 5 adalah buah dan pada branch 2 baris ke 5 adalah sayur maka akan menimbulkan branch konflik.
+   bagaimana cara mengatasi branch conflict
+    1. Buka Pull Request (PR) yang Konflik
+       Masuk ke repo kamu di GitHub.
+       Klik tab Pull Requests.
+       Pilih PR yang menampilkan pesan "This branch has conflicts that must be resolved."
+
+    2. Klik Tombol “Resolve conflicts”
+       GitHub akan membuka editor konflik secara langsung di browser.
+
+    3. Perbaiki Isi File yang Konflik
+       Temukan bagian dengan tanda:
+
+        text
+        Copy
+        Edit
+        <<<<<<< main
+        (isi dari branch utama)
+        =======
+        (isi dari branch kamu)
+        >>>>>>> feature-branch
+        Pilih salah satu isi, atau gabungkan keduanya secara manual.
+        Hapus tanda <<<<<<<, =======, >>>>>>>.
+
+    4. Klik "Mark as resolved"
+        Setelah semua konflik di file selesai diperbaiki.
+
+    5. Klik "Commit merge"
+        Untuk menyimpan hasil penyelesaian konflik.
+
+    6. Lakukan Merge PR Seperti Biasa
+       Klik “Merge pull request” lalu “Confirm merge”.
+atau bisa cek https://youtu.be/k1QXd-8VbPY?si=iWjF45fNq2V3ogJr (chanel wpu menit 23.11)
