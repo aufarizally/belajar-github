@@ -1,0 +1,19 @@
+Branch adalah cabang pengembangan dalam Git yang memungkinkan kamu mengerjakan fitur atau perbaikan secara terpisah tanpa mengganggu kode utama. Setelah selesai, hasilnya bisa digabungkan kembali ke kode utama.
+
+Penjelasan Gampang:
+Bayangkan kamu punya buku cerita. Kamu ingin coba menulis akhir cerita yang berbeda tanpa merusak cerita aslinya. Maka kamu salin buku itu (buat branch) dan tulis versi baru di salinan itu. Kalau ternyata bagus, kamu bisa gabungkan kembali (merge) ke cerita utama.
+
+Fungsi Branch dalam Git:
+1. Mengembangkan fitur baru secara terpisah.
+2. Memperbaiki bug tanpa mengganggu proyek utama.
+3. Mengerjakan beberapa hal sekaligus oleh tim yang berbeda.
+4. Melakukan eksperimen tanpa risiko merusak kode utama.
+
+Cara 1: Menggunakan GitHub Web
+1. Buat dan Kelola Branch (Tanpa Terminal)
+2. Masuk ke repositori kamu di GitHub.
+3. Klik dropdown "main" (atau nama branch saat ini) di pojok kiri atas daftar file.
+4. Ketik nama branch baru, lalu klik "Create branch: nama-branch".
+5. Kamu sekarang berada di branch baru, dan bisa mulai edit file dari sana.
+6. Setelah selesai, buat Pull Request (PR) untuk menggabungkan ke branch utama (main).
+https://youtu.be/k1QXd-8VbPY?si=iWjF45fNq2V3ogJr (chanel wpu-menit 7.35)
